@@ -1079,4 +1079,20 @@ img {
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
+ .mobile-menu-container {
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     padding: 80px 35px 40px 40px;
+ }
+
+  .mobile-menu.is-open {
+      transform: translateX(0%);
+  }
+
+  .mobile-menu-close {
+      position: absolute;
+  }
+
   
