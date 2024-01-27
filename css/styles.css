@@ -1095,3 +1095,27 @@ img {
       position: absolute;
   }
 
+ .nav-icon {
+     visibility: visible;
+     width: 32px;
+     height: 22px;
+ }
+
+  .mobile-nav-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+  }
+
+  .mobile-nav-item-link {
+      font-family: Roboto;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 700;
+      letter-spacing: 0.32px;
+      color: var(--navyblue);
+      line-height: 40px;
+      letter-spacing: 0.72px;
+      text-transform: capitalize;
+  }
