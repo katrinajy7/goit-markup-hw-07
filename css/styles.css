@@ -1225,3 +1225,36 @@ img {
   .hero-buttonK {
       margin: 0;
   }
+
+  /* MOBILE MEDIA QUERY FOR SECTION 2-FEATURES */
+  .features-section {
+      padding: 96px 0;
+  }
+
+  .features-section .container {
+      margin: 0 auto;
+      padding: 0;
+  }
+
+  .features-section-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 72px;
+  }
+
+  .item-title {
+      text-align: center;
+  }
+
+  .features-list-item {
+      flex-basis: calc(100% - 40px);
+      margin: 0;
+      width: 396px;
+  }
+
+  .features-section-icon {
+      display: none;
+  }
+
+  
