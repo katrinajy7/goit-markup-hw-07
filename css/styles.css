@@ -1419,3 +1419,12 @@ img {
      line-height: 14px;
      letter-spacing: 0.48px;
  }
+
+ /* TABLET QUERY FOR SECTION 1-HERO */
+  .hero-section {
+      height: 436px;
+      padding-top: 112px;
+      padding-bottom: 112px;
+  }
+
+  /* TABLET QUERY FOR SECTION 1-HERO */
