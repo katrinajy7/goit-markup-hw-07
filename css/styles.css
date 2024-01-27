@@ -1169,7 +1169,7 @@ img {
 
   .mobile-address-tel {
       font-family: Roboto;
-      color: var(--iris);
+      color: #4d5ae5;
       font-size: 36px;
       font-style: normal;
       font-weight: 700;
@@ -1180,7 +1180,7 @@ img {
 
   .mobile-address-email {
       font-family: Roboto;
-      color: var(--slate);
+      color: #434455;
       font-size: 20px;
       font-style: normal;
       font-weight: 500;
@@ -1204,3 +1204,24 @@ img {
 .close-button:focus .modal-close {
     fill: var(--white);
 }
+
+/* MOBILE MEDIA QUERY FOR SECTION 1-HERO */
+
+  .hero-sectionK {
+      margin: 0 auto;
+      padding: 112px 54px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+
+  .hero-tittleK {
+      margin-bottom: 72px;
+      font-size: 36px;
+      line-height: 40px;
+      letter-spacing: 0.72px;
+  }
+
+  .hero-buttonK {
+      margin: 0;
+  }
