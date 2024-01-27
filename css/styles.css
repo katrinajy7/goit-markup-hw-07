@@ -1427,4 +1427,44 @@ img {
       padding-bottom: 112px;
   }
 
-  /* TABLET QUERY FOR SECTION 1-HERO */
+  /* TABLET QUERY FOR SECTION 2 */
+  .features-section {
+      padding-top: 96px;
+      padding-bottom: 96px;
+  }
+
+  .features-section-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 24px;
+  }
+
+  .features-list-item {
+      max-width: 356px;
+      flex-basis: calc((100% - 40px) / 2);
+      margin: 0;
+  }
+
+  .features-list-item .item-title {
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: 0.72px;
+  }
+
+  .features-section-icon {
+      display: none;
+  }
+
+  .features-list-item .item-text {
+      margin-bottom: 0;
+      font-weight: 500;
+  }
+
+   /* TABLET QUERY FOR SECTION 3 */
+   .services-section {
+       display: none;
+   }
+
+   
