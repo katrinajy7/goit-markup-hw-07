@@ -1257,4 +1257,132 @@ img {
       display: none;
   }
 
-  
+  /* MOBILE MEDIA QUERY FOR SECTION 3 */
+.services-section {
+    display: none;
+}
+
+/* MOBILE MEDIA QUERY FOR SECTION 4 */
+
+.team-section {
+    padding: 96px 0;
+}
+
+.team-section .container {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.team-section .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 72px;
+}
+
+.team-list-item {
+    flex-basis: calc(100% - 30px);
+    margin-right: 0;
+}
+
+/* MOBILE MEDIA QUERY FOR SECTION 5 */
+.customer-section {
+    margin: 0 auto;
+    padding: 96px 0;
+}
+
+.customer-icon {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 16px;
+    justify-content: center;
+}
+
+.customer-icon-list {
+    width: 190px;
+}
+
+/* MOBILE MEDIA QUERY FOR FOOTER */
+.footer {
+    padding-top: 97.5px;
+    padding-bottom: 96px;
+}
+
+.footer .container {
+    margin: 0 auto;
+}
+
+.footer-container-logo {
+    margin: 0 auto 72px auto;
+    width: 268px;
+    text-align: center;
+}
+
+.footer-container-logo .logo {
+    margin: 0 0 16px 0;
+}
+
+.footer-p {
+    text-align: left;
+}
+
+.footer-subscribe {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-social-media {
+    margin: 0 auto 72px auto;
+    text-align: center;
+}
+
+.footer-subscribe {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.form-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.subscribe-input-email {
+    max-width: 398px;
+}
+
+/* MOBILE MEDIA QUERY FOR PORTFOLIO */
+.main-section {
+    padding: 48px 0;
+}
+
+.portfolio-main .container {
+    margin: 0 auto;
+    max-width: 396px;
+}
+
+.portfolio-main .button-menu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+}
+
+.button-menu .button {
+    white-space: nowrap;
+}
+
+.project-card-img img {
+    width: 396px;
+}
+
+.application-category .item-title {
+    text-align: left;
+}
+}
