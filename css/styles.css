@@ -1119,3 +1119,61 @@ img {
       letter-spacing: 0.72px;
       text-transform: capitalize;
   }
+
+  .mobile-nav-item-link:hover,
+  .mobile-nav-item-link:focus {
+      color: #404bbf;
+  }
+
+  .mobile-address {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 40px;
+  }
+
+  .mobile-address-list {
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      font-style: normal;
+      gap: 40px;
+  }
+
+  .mobile-address-tel {
+      font-family: Roboto;
+      color: var(--iris);
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: 0.72px;
+      text-transform: capitalize;
+  }
+
+  .mobile-address-email {
+      font-family: Roboto;
+      color: var(--slate);
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0.4px;
+  }
+
+  .mobile-address-socialmedia {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .mobile-address-socialmedia .social-media {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 48px;
+  }
+
+.close-button:hover .modal-close,
+.close-button:focus .modal-close {
+    fill: var(--white);
+}
