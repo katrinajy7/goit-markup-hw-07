@@ -993,9 +993,9 @@ body {
         margin: 24px 0 22px 16px;
     }
 
-    .header-container {
+    /* .header-container {
         display: none;
-    }
+    } */
 
     .mobile-nav-container {
         display: flex;
