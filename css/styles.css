@@ -39,6 +39,10 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
+    display: inline-flex;
+    height: 24px;
+    align-items: center;
+    margin-right: 76px;
 }
 
 .header {
