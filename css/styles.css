@@ -52,8 +52,9 @@ body {
 
 .nav,
 .contacts {
-    display: flex;
+    /* display: flex; */
     align-items: center;
+    display:none;
 }
 
 .container {
